@@ -3,7 +3,9 @@ import Navbar from "../components/Navbar";
 
 const HomeLayout = () => {
   return (
-    <div className=" w-full">
+    <div className=" w-full" style={{
+      fontFamily: 'Poppins'
+    }}>
       <Navbar />
       <Outlet />
     </div>
