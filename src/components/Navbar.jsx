@@ -32,7 +32,7 @@ const Navbar = () => {
     setActiveLink(index);
   };
   return (
-    <div className=" bg-black flex justify-between items-center h-24 w-full mx-auto px-4 text-white sticky top-0 z-50" style={{
+    <div className=" bg-white flex justify-between items-center h-24 w-full mx-auto px-4 text-white sticky top-0 z-50" style={{
       fontFamily: 'Poppins'
     }}>
       {/* Logo */}
