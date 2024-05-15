@@ -50,8 +50,8 @@ const Navbar = () => {
           >
             <li
               key={item.id}
-              className={`p-4 hover:bg-[#957ffd] ${
-                activeLink === index && "bg-[#957ffd] p-4 rounded-xl"
+              className={`p-4 hover:bg-[#005DFF] ${
+                activeLink === index && "bg-[#005DFF] p-4 rounded-xl"
               } rounded-xl m-2 cursor-pointer duration-300 hover:text-black`}
             >
               {item.text}
@@ -65,12 +65,12 @@ const Navbar = () => {
       <div className="hidden md:flex">
         <SignedOut>
           <Link to={"/signin"}>
-            <button className=" p-4 bg-[#957ffd] hover:bg-[#6a4fb3] rounded-xl m-2 cursor-pointer duration-300 text-black">
+            <button className=" p-4 bg-[#005DFF] hover:bg-[#6a4fb3] rounded-xl m-2 cursor-pointer duration-300 text-black">
               Sign In
             </button>
           </Link>
           <Link to={"/signup"}>
-            <button className=" p-4 bg-[#957ffd] hover:bg-[#6a4fb3] rounded-xl m-2 cursor-pointer duration-300 text-black">
+            <button className=" p-4 bg-[#005DFF] hover:bg-[#6a4fb3] rounded-xl m-2 cursor-pointer duration-300 text-black">
               Sign Up
             </button>
           </Link>
@@ -104,7 +104,7 @@ const Navbar = () => {
       >
         {/* Mobile Logo */}
         <div className="flex justify-between items-center m-4">
-          <h1 className="text-3xl font-bold text-[#957ffd] ">NASA API</h1>
+          <h1 className="text-3xl font-bold text-[#005DFF] ">NASA API</h1>
           <SignedIn>
             <UserButton />
           </SignedIn>
@@ -115,7 +115,7 @@ const Navbar = () => {
           <Link to={item.link} key={item.id}>
             <li
               key={item.id}
-              className="p-4 border-b rounded-xl hover:bg-[#957ffd] duration-300 hover:text-black cursor-pointer border-gray-600"
+              className="p-4 border-b rounded-xl hover:bg-[#005DFF] duration-300 hover:text-black cursor-pointer border-gray-600"
             >
               {item.text}
             </li>
@@ -126,12 +126,12 @@ const Navbar = () => {
         <div className="flex justify-center mt-4 md:hidden">
           <SignedOut>
             <Link to={"/signin"}>
-              <button className=" p-4 bg-[#957ffd] hover:bg-[#6a4fb3] rounded-xl m-2 cursor-pointer duration-300 text-black">
+              <button className=" p-4 bg-[#005DFF] hover:bg-[#6a4fb3] rounded-xl m-2 cursor-pointer duration-300 text-black">
                 Sign In
               </button>
             </Link>
             <Link to={"/signup"}>
-              <button className=" p-4 bg-[#957ffd] hover:bg-[#6a4fb3] rounded-xl m-2 cursor-pointer duration-300 text-black">
+              <button className=" p-4 bg-[#005DFF] hover:bg-[#6a4fb3] rounded-xl m-2 cursor-pointer duration-300 text-black">
                 Sign Up
               </button>
             </Link>
