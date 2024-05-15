@@ -32,7 +32,9 @@ const Navbar = () => {
     setActiveLink(index);
   };
   return (
-    <div className=" bg-black flex justify-between items-center h-24 w-full mx-auto px-4 text-white sticky top-0 z-50">
+    <div className=" bg-black flex justify-between items-center h-24 w-full mx-auto px-4 text-white sticky top-0 z-50" style={{
+      fontFamily: 'Poppins'
+    }}>
       {/* Logo */}
       <Link to={"/"}>
         <h1 className="text-3xl font-bold text-[#957ffd]">NASA API</h1>
